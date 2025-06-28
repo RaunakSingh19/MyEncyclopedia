@@ -3,17 +3,17 @@ import './Services.css';
 
 const services = [
   {
-    title: "Women's Course",
-    text: "Lorem Ipsum is simply dummy themes industries psum has been them industry the loop into type setting.",
+    title: " For Women",
+    text: "Balanced eating supports hormonal health, boosts energy, and strengthens bones. Nutrient-rich foods like leafy greens, legumes, and whole grains are essential for long-term wellness and vitality.",
   },
   {
-    title: "Basic Course",
-    text: "Lorem Ipsum is simply dummy themes industries psum has been them industry the loop into type setting.",
+    title: "General Tips",
+    text: "Good nutrition is the foundation of a healthy life. Focus on whole foods, stay hydrated, and aim for variety—fruits, vegetables, proteins, and healthy fats—to fuel your body and mind every day.",
     active: true,
   },
   {
-    title: "Men's Course",
-    text: "Lorem Ipsum is simply dummy themes industries psum has been them industry the loop into type setting.",
+    title: " For Men",
+    text: "Eating smart enhances strength, supports heart health, and maintains muscle mass. Lean proteins, fiber-rich carbs, and healthy fats help optimize performance and support active lifestyles.",
   },
 ];
 

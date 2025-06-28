@@ -14,12 +14,12 @@ const HeroSection = () => {
         <div className="hero-content">
           <p className="hero-subtitle">FITNESS & NUTRITION</p>
           <h1 className="hero-title">
-            This life style for<br />
-            your fitness, not<br />
-            only diet.
+            The Ultimate Guide to <br />
+            What Fuels You.<br />
+           Eat Smart. Live Well
           </h1>
           <p className="hero-text">
-            It has survived not only five centuries but also
+             Discover the Science Behind Every Bite.
           </p>
           <button className="btn btn-primary">Start Course</button>
           <div className="social-wrapper">

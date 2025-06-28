@@ -7,7 +7,7 @@ const BlogPreview = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/blogs')
+    fetch(' ')
       .then((res) => res.json())
       .then((data) => setBlogs(data.slice(0, 3)))
       .catch((err) => console.error('Error fetching preview blogs:', err));

@@ -6,7 +6,7 @@ const Courses = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_BASE_URL = "http://localhost:5000/api/fruits/all";
+  const API_BASE_URL = "https://myencyclopedia-76ou.onrender.com/api/fruits/all";
 
   useEffect(() => {
     const fetchFruits = async () => {

@@ -7,7 +7,7 @@ const AdminBlogPage = () => {
   const [editId, setEditId] = useState(null);
 
   const fetchBlogs = async () => {
-    const res = await fetch('http://localhost:5000/api/blogs');
+    const res = await fetch('https://myencyclopedia-76ou.onrender.com/api/blogs');
     const data = await res.json();
     setBlogs(data);
   };
@@ -15,8 +15,8 @@ const AdminBlogPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const url = editId
-      ? `http://localhost:5000/api/blogs/${editId}`
-      : 'http://localhost:5000/api/blogs';
+      ? `https://myencyclopedia-76ou.onrender.com/api/blogs/${editId}`
+      : 'https://myencyclopedia-76ou.onrender.com/api/blogs';
     const method = editId ? 'PUT' : 'POST';
 
     await fetch(url, {
@@ -36,7 +36,7 @@ const AdminBlogPage = () => {
   };
 
   const handleDelete = async (id) => {
-    await fetch(`http://localhost:5000/api/blogs/${id}`, { method: 'DELETE' });
+    await fetch(`https://myencyclopedia-76ou.onrender.com/api/blogs/${id}`, { method: 'DELETE' });
     fetchBlogs();
   };
 

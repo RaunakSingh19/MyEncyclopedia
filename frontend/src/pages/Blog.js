@@ -5,7 +5,7 @@ const BlogPage = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/blogs')
+    fetch('https://myencyclopedia-76ou.onrender.com/api/blogs')
       .then((res) => res.json())
       .then((data) => setBlogs(data))
       .catch((err) => console.error(err));

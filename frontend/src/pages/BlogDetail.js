@@ -145,7 +145,7 @@ const BlogDetail = () => {
   const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/blogs/${id}`)
+    fetch(`https://myencyclopedia-76ou.onrender.com/api/blogs/${id}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error('Not found');

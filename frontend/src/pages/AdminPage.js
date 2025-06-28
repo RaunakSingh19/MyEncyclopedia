@@ -12,7 +12,7 @@ const AdminPage = () => {
   const [error, setError] = useState("");
   const [editingFruit, setEditingFruit] = useState(null);
 
-  const API_BASE_URL = "http://localhost:5000/api/fruits";
+  const API_BASE_URL = "https://myencyclopedia-76ou.onrender.com/api/fruits";
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

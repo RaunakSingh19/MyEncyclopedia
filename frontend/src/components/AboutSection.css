@@ -1,0 +1,135 @@
+@import './SectionCommon.css';
+
+.about {
+  background-color: var(--cultured);
+  padding: 60px 20px;
+  overflow: hidden;
+}
+
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-banner-wrapper {
+  position: relative;
+  flex: 1 1 470px;
+  max-width: 470px;
+}
+
+.about-banner {
+  position: relative;
+  width: 100%;
+}
+
+.about-banner img.img-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.about-banner .btn {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background-color: #ffb703;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.about-banner .btn:hover {
+  background-color: #ffa200;
+}
+
+.rotating-logo {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+  animation: rotate 12s linear infinite;
+}
+
+.rotating-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Rotating animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.about-content {
+  flex: 1 1 500px;
+  max-width: 600px;
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.about .section-subtitle {
+  color: #004d40;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.about .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.about .section-text {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-h3 {
+  color: #004d40;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-grid {
+    flex-direction: column;
+  }
+
+  .about-content {
+    padding: 30px 20px;
+  }
+
+  .about .section-title {
+    font-size: 26px;
+  }
+
+  .about-h3 {
+    font-size: 20px;
+  }
+}

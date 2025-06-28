@@ -1,0 +1,23 @@
+.admin-blog {
+  padding: 2rem;
+  background: #f5f5f5;
+}
+.blog-form input,
+.blog-form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+.blog-list {
+  margin-top: 2rem;
+}
+.blog-list li {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+}
+.blog-list button {
+  margin-right: 10px;
+}

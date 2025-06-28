@@ -1,0 +1,151 @@
+.blog-preview-section {
+  padding: 80px 20px;
+  background-color: #fcf7f5;
+  text-align: center;
+}
+
+.containerr {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #004c3f;
+  margin-bottom: 12px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.blog-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  text-align: left;
+}
+
+.blog-date-box {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background-color: #004c3f;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.blog-date-box .day {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  line-height: 1;
+}
+
+.blog-date-box .month {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.blog-content {
+  margin-top: 30px;
+}
+
+.blog-author {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #777;
+}
+
+.blog-author-label {
+  font-weight: 600;
+}
+
+.blog-author-name {
+  font-weight: 500;
+}
+
+.blog-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+  color: #fbb034;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.blog-title {
+  font-size: 20px ;
+  font-weight: bolder;
+  color: #222;
+  margin: 0 0 12px 0;
+  line-height: 1.1;
+}
+
+.blog-subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.read-more-btn {
+  background-color: transparent;
+  color: #004c3f;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: 2px solid #004c3f;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: #004c3f;
+  color: #fff;
+}
+
+.preview-button-wrapper {
+  margin-top: 50px;
+}
+
+.see-more-button {
+  background-color: #004c3f;
+  color: #fff;
+  padding: 14px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.see-more-button:hover {
+  background-color: #fbb034;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
